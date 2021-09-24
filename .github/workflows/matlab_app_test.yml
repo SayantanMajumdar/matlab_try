@@ -15,6 +15,6 @@ jobs:
       #     command: results = runtests, assertSuccess(results);
       - name: Run tests and generate artifacts
         uses: matlab-actions/run-tests@v1
-        with:
-          test-results-junit: test-results/results.xml
+        # with:
+          # test-results-junit: test-results/results.xml
         
